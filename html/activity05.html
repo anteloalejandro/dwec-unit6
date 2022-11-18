@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="../js/activity05.js"></script>
+</head>
+<body>
+  <script>
+    let smallest = prompt('Type the smallest date in format DD/MM/YY')
+    let biggest = prompt('Type the biggest date in format DD/MM/YY')
+
+    let difference = timeDifference(smallest, biggest)
+    if (difference)
+      alert(difference)
+    else
+      alert('Badly formatted dates')
+  </script>
+</body>
+</html>
